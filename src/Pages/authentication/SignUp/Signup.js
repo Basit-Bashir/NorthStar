@@ -4,7 +4,7 @@ const Signup = () => {
   return (
     <>
       <div className={classes.mainDiv1}>
-        <h1 className="logo">Welcome to NorthStar</h1>
+        <h1 className="logo">Welcome to North Star</h1>
         <div className={classes.container}>
           <h3 className="logo-3">Sign-up</h3>
           <form className={classes.signup}>

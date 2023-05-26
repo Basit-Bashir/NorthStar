@@ -5,7 +5,7 @@ const Login = () => {
   return (
     <>
       <div className={classes.mainDiv}>
-        <h1 className="logo">Welcome to NorthStar</h1>
+        <h1 className="logo">Welcome to North Star</h1>
         <div className={classes.container}>
           <h3 className="logo-3">Login</h3>
           <form>
