@@ -64,6 +64,8 @@ h3 {
   font-weight: 700;
   border-radius: 8px;
   color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 .btnDiv {
   margin-bottom: 21px;
@@ -77,4 +79,7 @@ h3 {
   /* font-size: 21px; */
   justify-content: center;
   gap: 14px;
+}
+.btn:hover {
+  background: #7950f2;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Login.module.css";
 const Login = () => {
+  const handleSignupClick = () => {};
   return (
     <>
       <div className={classes.mainDiv}>
@@ -24,7 +25,11 @@ const Login = () => {
           </div>
           <div className={classes.signupDiv}>
             <p className="new-text">OR</p>
-            <button type="submit" className={classes.btn}>
+            <button
+              type="submit"
+              className={classes.btn}
+              onClick={handleSignupClick}
+            >
               Sign Up
             </button>
           </div>
