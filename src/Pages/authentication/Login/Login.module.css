@@ -23,6 +23,9 @@ body {
 h1 {
   margin-bottom: 51px;
   font-size: 40px;
+  color: #000;
+  text-shadow: 0 0 7px #f7f7f7, 0 0 10px #fff, 0 0 21px #fff, 0 0 21px #0fa,
+    0 0 41px #0fa, 0 0 45px #0fa, 0 0 50px #0fa, 0 0 45px #0fa;
 }
 h3 {
   text-align: center;

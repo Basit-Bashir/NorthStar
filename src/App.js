@@ -4,6 +4,7 @@ import Signup from "./Pages/authentication/SignUp/Signup";
 import "./App.css";
 import Navbar from "./components/Header/Navbar";
 import Product from "./components/Products/Product";
+import LandingPage from "./components/MainPage/LandingPage";
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Signup />
       <Navbar />
       <Product />
+      <LandingPage />
     </div>
   );
 }
