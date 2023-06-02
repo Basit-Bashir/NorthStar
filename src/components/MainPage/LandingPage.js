@@ -11,6 +11,7 @@ const LandingPage = () => {
         <div className={classes.productsCont}>
           <div className={classes.productDetails}>
             <img className={classes.productImg} src={img1} alt="product img" />
+
             <div className={classes.productBio}>
               <p>HP Notebook G7 340s</p>
               <p>&#8377; 70,000</p>
@@ -22,6 +23,7 @@ const LandingPage = () => {
           </div>
           <div className={classes.productDetails}>
             <img className={classes.productImg} src={img2} alt="product img" />
+
             <div className={classes.productBio}>
               <p>HP Notebook G7 340s</p>
               <p>&#8377; 70,000</p>
@@ -33,6 +35,7 @@ const LandingPage = () => {
           </div>
           <div className={classes.productDetails}>
             <img className={classes.productImg} src={img3} alt="product img" />
+
             <div className={classes.productBio}>
               <p>HP Notebook G7 340s</p>
               <p>&#8377; 70,000</p>
@@ -43,7 +46,15 @@ const LandingPage = () => {
             </div>
           </div>
           <div className={classes.productDetails}>
-            <img className={classes.productImg} src={img3} alt="product img" />
+            <div className={classes.imgCont}>
+              <div className={classes.item}>
+                <img
+                  className={classes.productImg}
+                  src={img3}
+                  alt="product img"
+                />
+              </div>
+            </div>
             <div className={classes.productBio}>
               <p>HP Notebook G7 340s</p>
               <p>&#8377; 70,000</p>
