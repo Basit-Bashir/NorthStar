@@ -64,7 +64,7 @@ form label {
   border: 2px solid red;
 }
 .shake {
-  animation: shake 0.5s linear;
+  animation: shake 0.3s linear;
 }
 @keyframes shake {
   0% {

@@ -1,5 +1,4 @@
 .header {
-  /* display: flex; */
   font-size: 21px;
   margin-top: 30px;
 }
@@ -18,12 +17,12 @@
 .btn {
   border: none;
   padding: 8px;
-  color: #2c0979;
+  color: #000;
   border-radius: 8px;
   transition: all 0.3s;
 }
 .btn:hover {
   cursor: pointer;
-  background: #5c7cfa;
+  background: #7950f2;
   color: #fff;
 }

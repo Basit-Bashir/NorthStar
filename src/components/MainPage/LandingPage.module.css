@@ -8,6 +8,7 @@
   height: 100%;
   border-radius: 8px;
   transition: 0.3s ease;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
 }
 
 .productImg:hover {
@@ -18,6 +19,8 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 21px;
 }
 .productBio {
@@ -39,7 +42,8 @@
   transition: all 0.3s;
 }
 .btn:hover {
-  background: black;
+  background: #7950f2;
+  color: #fff;
 }
 .btnBox {
   display: flex;
@@ -50,4 +54,7 @@
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
   padding: 14px;
   border-radius: 11px;
+}
+.newLine {
+  grid-column: 1;
 }

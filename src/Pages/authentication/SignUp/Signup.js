@@ -17,11 +17,11 @@ const Signup = () => {
       errors.name = "Name is required";
     }
 
-    if (email.trim() === "") {
+    if (!email.includes("@")) {
       errors.email = "Email is required";
     }
 
-    if (password.trim() === "") {
+    if (password.length < 6 || password.trim() === "") {
       errors.password = "Password is required";
     }
 
@@ -50,6 +50,7 @@ const Signup = () => {
         phone,
         address,
       };
+      console.log(formData);
     }
   };
 

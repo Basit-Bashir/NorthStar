@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-// import { Carousel } from "react-responsive-carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
 import classes from "./Product.module.css";
 import img1 from "../../Assets/Imgs/p1.jpg";
 import img2 from "../../Assets/Imgs/p2.jpg";
 import img3 from "../../Assets/Imgs/p3.jpg";
+import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Product = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [img1, img2, img3];
@@ -29,10 +29,10 @@ const Product = () => {
           />
           <div className={classes.productBtn}>
             <button onClick={prevImage} className={classes.corouselbutton}>
-              Prev
+              <FontAwesomeIcon icon={faArrowLeft} />
             </button>
             <button onClick={nextImage} className={classes.corouselbutton}>
-              Next
+              <FontAwesomeIcon icon={faArrowRight} />
             </button>
           </div>
         </div>
