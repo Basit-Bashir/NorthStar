@@ -18,9 +18,15 @@
 h1 {
   margin-bottom: 51px;
   font-size: 40px;
-  color: #000;
-  text-shadow: 0 0 7px #f7f7f7, 0 0 10px #fff, 0 0 21px #fff, 0 0 21px #0fa,
-    0 0 41px #0fa, 0 0 45px #0fa, 0 0 50px #0fa, 0 0 45px #0fa;
+
+  background: #6a74cf;
+  background: radial-gradient(
+    circle farthest-side at bottom center,
+    #6a74cf 30%,
+    #cf1512 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h3 {
   text-align: center;

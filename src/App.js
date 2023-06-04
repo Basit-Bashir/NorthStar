@@ -7,7 +7,7 @@ import Product from "./components/Products/Product";
 import LandingPage from "./components/MainPage/LandingPage";
 import Filter from "./components/MainPage/Filter";
 import FooterPart from "./components/Footer/FooterPart";
-
+import ProductUpload from "./components/Products/ProductUpload";
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
       <Filter />
       <LandingPage />
       <FooterPart />
+      <ProductUpload />
     </div>
   );
 }
